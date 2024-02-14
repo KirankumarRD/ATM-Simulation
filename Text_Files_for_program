@@ -41,3 +41,6 @@ File Information for ATM Operations:
    - Description: This file stores the day information for daily withdrawal limit tracking.
    - Format:
      - Single line containing the stored day (integer)
+
+
+This is the info about the files used in the program. Create these .txt files with the specified file name in your computer to execute the program properly.
