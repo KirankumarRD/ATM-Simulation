@@ -1,0 +1,43 @@
+File Information for ATM Operations:
+
+1. Bank Data File:
+   - Filename: bank_data2.txt
+   - Description: This file stores information about the customers' accounts.
+   - Format:
+     - Each line contains the following fields separated by space:
+       - Customer name (string)
+       - Account number (integer)
+       - Account balance (double)
+       - Last password (integer)
+
+2. Transaction File:
+   - Filename: transactions2.txt
+   - Description: This file stores transaction details.
+   - Format:
+     - Each line contains the following fields separated by space:
+       - Account number (integer)
+       - Withdrawal amount (double)
+       - Transaction timestamp (string)
+       - Updated balance (double)
+
+3. ATM Balance File:
+   - Filename: AtmBalance.txt
+   - Description: This file stores the balance of the ATM machine.
+   - Format:
+     - Single line containing the current ATM balance (integer)
+
+4. Blocked Accounts File:
+   - Filename: Blocked_accs.txt
+   - Description: This file stores information about blocked accounts.
+   - Format:
+     - Each line contains the following fields separated by space:
+       - Customer name (string)
+       - Account number (integer)
+       - Account balance (double)
+       - Last password (integer)
+
+5. Stored Day File:
+   - Filename: stored_day.txt
+   - Description: This file stores the day information for daily withdrawal limit tracking.
+   - Format:
+     - Single line containing the stored day (integer)
