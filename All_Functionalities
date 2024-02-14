@@ -1,0 +1,23 @@
+ATM Machine Program (atm_machine.c)
+
+Purpose: Simulates an Automated Teller Machine (ATM) where users can perform banking operations.
+
+    Login: Allows users to log in with their account number and password.
+    Deposit: Enables users to deposit money into their account.
+    Withdrawal: Facilitates users to withdraw money from their account, considering the ATM's daily transaction limit.
+    Check Balance: Provides users with the ability to check their account balance.
+    Mini Statement: Allows users to view their recent transaction details.
+    Logout: Allows users to log out from their account.
+
+Bank System Program (bank_system.c)
+
+Purpose: Represents a bank system where bank employees can manage customer accounts and perform administrative tasks.
+
+    Create Customer: Enables bank employees to create new customer accounts.
+    Display Customer Information: Allows bank employees to view details of a specific customer account.
+    Admin Login: Authorizes bank employees to log in and perform administrative tasks.
+    Cash Load: Enables admins to load cash into the ATM machine.
+    Check ATM Balance: Allows admins to check the balance of the ATM machine.
+    Revive Blocked Account: Provides admins with the ability to unblock a previously blocked customer account.
+
+These functions encapsulate the main functionalities of each program and their respective purposes within the context of the banking system simulation.
